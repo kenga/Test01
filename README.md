@@ -6,6 +6,8 @@ Running environment
 - Python 3.6+
 
 Instruction
+1. download the access and unzip it to directory ```q1/data/```. 
+(URL: ftp://ita.ee.lbl.gov/traces/NASA_access_log_Aug95.gz)
 1. change directory to ```q1/```
 1. run ```python count_http.py``` to count the total number of HTTP requests
 1. run ```python count_top10_hosts.py``` to find the top-10 (host) hosts makes most requests from 18th Aug to 20th Aug
