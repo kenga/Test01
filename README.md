@@ -16,3 +16,7 @@ Instruction
 Remark
 - For finding out the country with most requests, its assumed that the country of a server can be deduced from the 
 domain name, which may not be true in reality.
+
+## Q2. RDBMS
+Running environment
+- MySQL 
