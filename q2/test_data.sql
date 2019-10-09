@@ -1,0 +1,27 @@
+INSERT INTO articles (id, title, created_by, updated_by) VALUES ('23465', 'Hello world', '2017-04-05 00:00:00', '2017-04-05 00:00:00');
+INSERT INTO articles (id, title, created_by, updated_by) VALUES ('a0001', 'Article 1', '2017-04-01 00:00:00', '2017-04-01 00:00:00');
+INSERT INTO articles (id, title, created_by, updated_by) VALUES ('a0002', 'Article 2', '2017-04-01 00:00:00', '2017-04-01 00:00:00');
+INSERT INTO articles (id, title, created_by, updated_by) VALUES ('a0003', 'Article 3', '2017-04-01 00:00:00', '2017-04-01 00:00:00');
+INSERT INTO articles (id, title, created_by, updated_by) VALUES ('a0004', 'Article 4', '2017-04-01 00:00:00', '2017-04-01 00:00:00');
+
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('F75DA5D1', '2017-04-05 00:00:00', 'LIKE_ARTICLE', '23465');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000001', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0001');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000001', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0002');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000002', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0002');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000003', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0002');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000004', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0002');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000005', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0002');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000001', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000002', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000003', '2017-04-01 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000004', '2017-04-02 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000005', '2017-04-02 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000006', '2017-04-02 00:00:00', 'LIKE_ARTICLE', 'a0003');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000001', '2017-04-01 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000002', '2017-04-01 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000003', '2017-04-01 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000005', '2017-04-01 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000004', '2017-04-01 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000006', '2017-04-02 00:00:00', 'FIRST_INSTALL', '');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000005', '2017-04-02 00:00:00', 'LIKE_ARTICLE', 'a0004');
+INSERT INTO clickstream (userId, time, action, objectId) VALUES ('u0000001', '2017-04-09 00:00:00', 'LIKE_ARTICLE', 'a0004');
